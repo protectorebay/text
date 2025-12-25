@@ -63,20 +63,19 @@ const lines = [
     "Indicators support decisions, not replace thinking",
     "No indicator works 100 percent of the time",
     "Overtrading increases risk and stress",
-    "High impact news can override technical levels"
-    "Orange-green bar shows the Fear and Greed Index"
-    "Green names in chat are channel members"
-    "Blue names in chat are are moderators"
-    "The channel has over 1100 active members"
+    "High impact news can override technical levels",
+    "Orange-green bar shows the Fear and Greed Index",
+    "Green names in chat are channel members",
+    "Blue names in chat are are moderators",
+    "The channel has over 1100 active members",
     "Channel website: www.forexeducation.live"
-
 ];
 
 let index = 0;
 const textEl = document.getElementById("text");
 
 // timing (ms)
-const DISPLAY_TIME = 20000; // 1 minute
+const DISPLAY_TIME = 15000; // 20 seconds per line
 const FADE_TIME = 3000;    // fade in/out duration
 
 function showLine() {
