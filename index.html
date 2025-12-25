@@ -46,7 +46,8 @@ const lines = [
     "Green orders in order book mean completed buy orders",
     "Red orders mean completed short orders",
     "Yellow color in order book marks liquidation of long positions",
-    "Blue  color in order book marks liquidation of short positions",
+    "Blue color in order book marks liquidation of short positions",
+    "Only completed trades above 20K are shown in the order book",
     "Market cap shows total value of XRP in USD",
     "Everything shown is for learning purposes",
     "RSI shows market strength and momentum",
@@ -67,6 +68,7 @@ const lines = [
     "Orange-green bar shows the Fear and Greed Index",
     "Green names in chat are channel members",
     "Blue names in chat are moderators",
+    "Something not working ? message us on X @Ic3WND",
     "The channel has over 1100 active members",
     "Channel website: www.forexeducation.live"
 ];
@@ -75,7 +77,7 @@ let index = 0;
 const textEl = document.getElementById("text");
 
 // timing (ms)
-const DISPLAY_TIME = 15000; // 15 seconds per line
+const DISPLAY_TIME = 19000; // 15 seconds per line
 const FADE_TIME = 3000;     // fade in/out duration
 
 function showLine() {
@@ -95,3 +97,4 @@ setInterval(showLine, DISPLAY_TIME);
 
 </body>
 </html>
+
